@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: "jdbc:sqlserver://localhost:33333"
+    username: SA
+    password: A_Str0ng_Required_Password
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    generate-ddl: true
